@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en" style=""><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="web_standard" name="shell-type"/>
+<title>Vedant Enterprises | Industrial Safety &amp; Engineering Supplies</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Merriweather:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-primary-fixed": "#00164e",
+            "surface-container-lowest": "#ffffff",
+            "tertiary-fixed-dim": "#bec6e0",
+            "surface-container-highest": "#e0e3e5",
+            "on-primary-fixed-variant": "#264191",
+            "on-primary": "#ffffff",
+            "on-secondary-fixed-variant": "#653e00",
+            "on-error-container": "#93000a",
+            "on-tertiary-container": "#a4acc5",
+            "on-tertiary-fixed-variant": "#3f465c",
+            "on-primary-container": "#90a8ff",
+            "secondary": "#855300",
+            "surface-tint": "#4059aa",
+            "secondary-fixed": "#ffddb8",
+            "on-secondary-container": "#684000",
+            "on-secondary-fixed": "#2a1700",
+            "on-tertiary": "#ffffff",
+            "outline-variant": "#c5c5d3",
+            "background": "#f7f9fb",
+            "surface-dim": "#d8dadc",
+            "tertiary": "#222a3e",
+            "error-container": "#ffdad6",
+            "secondary-fixed-dim": "#ffb95f",
+            "primary-container": "#1e3a8a",
+            "outline": "#757682",
+            "primary-fixed": "#dce1ff",
+            "inverse-surface": "#2d3133",
+            "on-surface-variant": "#444651",
+            "on-surface": "#191c1e",
+            "surface-variant": "#e0e3e5",
+            "surface-container-high": "#e6e8ea",
+            "primary": "#00236f",
+            "surface-bright": "#f7f9fb",
+            "primary-fixed-dim": "#b6c4ff",
+            "surface-container-low": "#f2f4f6",
+            "on-secondary": "#ffffff",
+            "on-error": "#ffffff",
+            "surface": "#f7f9fb",
+            "on-tertiary-fixed": "#131b2e",
+            "on-background": "#191c1e",
+            "tertiary-container": "#384055",
+            "inverse-on-surface": "#eff1f3",
+            "tertiary-fixed": "#dae2fd",
+            "inverse-primary": "#b6c4ff",
+            "error": "#ba1a1a",
+            "surface-container": "#eceef0",
+            "secondary-container": "#fea619"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "space-md": "1rem",
+            "gutter": "1.5rem",
+            "space-xs": "0.25rem",
+            "gutter-mobile": "1rem",
+            "margin": "3rem",
+            "space-2xl": "4rem",
+            "margin-mobile": "1.25rem",
+            "space-lg": "1.5rem",
+            "space-xl": "2.5rem",
+            "space-sm": "0.5rem"
+          },
+          "fontFamily": {
+            "body-lg": ["Inter", "sans-serif"],
+            "headline-lg": ["Merriweather", "serif"],
+            "spec-code": ["Inter", "monospace"],
+            "body-md": ["Inter", "sans-serif"],
+            "display-hero-mobile": ["Merriweather", "serif"],
+            "headline-lg-mobile": ["Merriweather", "serif"],
+            "headline-sm": ["Merriweather", "serif"],
+            "title-lg": ["Inter", "sans-serif"],
+            "body-sm": ["Inter", "sans-serif"],
+            "title-sm": ["Inter", "sans-serif"],
+            "headline-md": ["Merriweather", "serif"],
+            "display-hero": ["Merriweather", "serif"],
+            "label-md": ["Inter", "sans-serif"]
+          },
+          "fontSize": {
+            "body-lg": ["1.125rem", { "lineHeight": "1.6", "letterSpacing": "0em", "fontWeight": "400" }],
+            "headline-lg": ["2.25rem", { "lineHeight": "1.25", "letterSpacing": "-0.015em", "fontWeight": "700" }],
+            "spec-code": ["0.75rem", { "lineHeight": "1.2", "letterSpacing": "0.08em", "fontWeight": "500" }],
+            "body-md": ["1rem", { "lineHeight": "1.5", "letterSpacing": "0em", "fontWeight": "400" }],
+            "display-hero-mobile": ["2.25rem", { "lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "headline-lg-mobile": ["1.75rem", { "lineHeight": "1.3", "letterSpacing": "0em", "fontWeight": "700" }],
+            "headline-sm": ["1.125rem", { "lineHeight": "1.4", "letterSpacing": "0em", "fontWeight": "700" }],
+            "title-lg": ["1.125rem", { "lineHeight": "1.45", "letterSpacing": "-0.01em", "fontWeight": "600" }],
+            "body-sm": ["0.875rem", { "lineHeight": "1.5", "letterSpacing": "0em", "fontWeight": "400" }],
+            "title-sm": ["0.875rem", { "lineHeight": "1.4", "letterSpacing": "0.025em", "fontWeight": "600" }],
+            "headline-md": ["1.5rem", { "lineHeight": "1.35", "letterSpacing": "-0.01em", "fontWeight": "700" }],
+            "display-hero": ["3.25rem", { "lineHeight": "1.15", "letterSpacing": "-0.02em", "fontWeight": "700" }],
+            "label-md": ["0.75rem", { "lineHeight": "1.3", "letterSpacing": "0.05em", "fontWeight": "600" }]
+          }
+        }
+      }
+    };
+  </script>
+<style>
+    body {
+      min-height: 100vh;
+      background-color: #f7f9fb;
+      color: #191c1e;
+    }
+    /* Smooth Accordion Sliding Transitions */
+    .division-accordion-content {
+      display: grid;
+      grid-template-rows: 1fr;
+      transition: grid-template-rows 350ms cubic-bezier(0.4, 0, 0.2, 1), opacity 300ms ease;
+      opacity: 1;
+    }
+    .division-accordion-content.is-collapsed {
+      grid-template-rows: 0fr;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .division-accordion-content > .accordion-inner {
+      overflow: hidden;
+    }
+    .chevron-icon {
+      transition: transform 300ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .is-collapsed-trigger .chevron-icon {
+      transform: rotate(-90deg);
+    }
+  </style>
+</head>
+<body class="bg-surface font-body-md text-on-surface antialiased min-h-screen overflow-y-auto">
+<!-- TOP HEADER -->
+<header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/95 backdrop-blur-md shadow-[0_1px_8px_rgba(0,0,0,0.06)]">
+<!-- Top Announcement Strip -->
+<div class="bg-tertiary text-on-tertiary px-gutter py-space-xs">
+<div class="max-w-[1360px] mx-auto flex flex-wrap items-center justify-between text-spec-code tracking-wider">
+<div class="flex items-center gap-space-sm">
+<span class="text-secondary-container font-semibold">॥ श्री गणेशाय नमः ॥</span>
+<span class="hidden sm:inline text-outline-variant">|</span>
+<span class="hidden sm:inline text-on-tertiary-container">Proprietor: Pravin Gaikwad</span>
+</div>
+<div class="flex items-center gap-space-md">
+<span class="hidden md:flex items-center gap-space-xs text-on-tertiary-container">
+<span class="material-symbols-outlined text-[14px]">verified</span>ISO Compliant B2B Distribution
+          </span>
+<div class="flex items-center gap-space-sm">
+<a class="text-secondary-fixed hover:text-secondary-fixed-dim transition-colors flex items-center gap-space-xs" href="https://wa.me/919623316837" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[14px]">chat</span>+91 9623316837
+            </a>
+<span class="text-outline-variant">•</span>
+<a class="text-on-tertiary hover:text-on-tertiary-container transition-colors flex items-center gap-space-xs" href="mailto:pravingg234@gmail.com">
+<span class="material-symbols-outlined text-[14px]">mail</span>pravingg234@gmail.com
+            </a>
+</div>
+</div>
+</div>
+</div>
+<!-- Main Navigation Bar -->
+<div class="h-20 max-w-[1360px] mx-auto px-gutter flex items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-md">
+<div class="flex items-center gap-space-sm">
+<img alt="Shree Ganesh Emblem" class="h-10 w-10 object-cover rounded-full border border-secondary-container shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzXvlG47QaM8un3YvtuhVDqpoUwd1FAuK_GwDXUK8sz_m9xgW-LTDZZ58bY3t4g4Ql0LuJG9hAQOYhkGyTSj9Oi5VEJEPyZ3JHDrHqgnLfrHuVreomiO21OwywTk6x197ZeqzeormZGI_29upnJf_3G8u_HxCpktFMN9rshkbiTYxhXbJIqCk2uqn5RiL9e3BgYC48LYIUZilKVi73uyC-gOJrV_ZvxGrQodRPIzje8QtYut1emgfEXrw96ZmijfSoug"/>
+<div class="flex flex-col">
+<span class="font-headline-sm text-headline-sm tracking-tight text-primary leading-none">VEDANT ENTERPRISES</span>
+<span class="font-spec-code text-spec-code uppercase tracking-wider text-secondary mt-0.5">Industrial Supplies &amp; Safety Solutions</span>
+</div>
+</div>
+</div>
+<nav class="hidden xl:flex items-center gap-space-sm font-title-sm text-title-sm">
+<a aria-current="page" class="px-space-sm py-space-xs transition-colors text-primary font-bold bg-surface-container-low rounded" href="#">Home</a>
+<a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" href="#ppe-section">PPE &amp; Safety</a>
+<a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" href="#abrasives-section">Abrasives &amp; Sanding</a>
+<a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" href="#lubricants-section">Industrial Lubricants</a>
+<a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" href="#packaging-section">Packaging &amp; Handling</a>
+<a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" href="#about-section">About Us</a>
+<a class="px-space-sm py-space-xs text-on-surface-variant hover:text-on-surface transition-colors" href="#rfq-section">Contact</a>
+</nav>
+<div class="flex items-center gap-space-md">
+<a class="hidden md:inline-flex items-center justify-center px-space-md py-space-xs bg-primary text-on-primary hover:bg-primary-container font-title-sm text-title-sm rounded transition-colors shadow-sm" href="#rfq-section">Request Bulk Quote</a>
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary text-[18px]">person</span>
+</div>
+</div>
+</div>
+</header>
+<main class="w-full pt-28 bg-surface min-h-[calc(100vh-280px)]">
+<div class="flex flex-col w-full">
+<!-- SECTION: BRAND HERO & AUTHORITY BANNER -->
+<section class="relative w-full bg-surface-container-low overflow-hidden">
+<div class="max-w-[1360px] mx-auto px-gutter py-space-xl lg:py-space-2xl relative z-10">
+<!-- Auspicious Invocation Header -->
+<div class="flex items-center justify-between flex-wrap gap-space-sm mb-space-md">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-highest px-space-sm py-0.5 rounded-full shadow-sm">
+<span class="w-2 h-2 rounded-full bg-secondary-container animate-pulse"></span>
+<span class="font-spec-code text-spec-code text-on-surface-variant font-semibold tracking-wider">॥ श्री गणेशाय नमः ॥ ISO-STANDARDS INDUSTRIAL LOGISTICS</span>
+</div>
+<div class="flex items-center gap-space-md text-spec-code font-spec-code text-secondary font-bold">
+<span class="flex items-center gap-1"><span class="material-symbols-outlined text-[15px]">verified_user</span>PAN-INDIA SUPPLY NETWORK</span>
+<span class="hidden sm:inline text-outline-variant">•</span>
+<span class="hidden sm:inline text-on-surface-variant font-normal">GST CERTIFIED WHOLESALE DISTRIBUTOR</span>
+</div>
+</div>
+<!-- Main Headline Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<div class="lg:col-span-8 flex flex-col gap-space-md">
+<!-- Emblem & Enterprise Title -->
+<div class="flex items-center gap-space-md">
+<div class="w-16 h-16 sm:w-20 sm:h-20 rounded-xl bg-surface-container-lowest p-2 shadow-sm flex items-center justify-center shrink-0">
+<img alt="Shree Ganesh Emblem" class="w-full h-full object-cover rounded-lg border border-secondary-container/40" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzXvlG47QaM8un3YvtuhVDqpoUwd1FAuK_GwDXUK8sz_m9xgW-LTDZZ58bY3t4g4Ql0LuJG9hAQOYhkGyTSj9Oi5VEJEPyZ3JHDrHqgnLfrHuVreomiO21OwywTk6x197ZeqzeormZGI_29upnJf_3G8u_HxCpktFMN9rshkbiTYxhXbJIqCk2uqn5RiL9e3BgYC48LYIUZilKVi73uyC-gOJrV_ZvxGrQodRPIzje8QtYut1emgfEXrw96ZmijfSoug"/>
+</div>
+<div>
+<span class="font-spec-code text-spec-code uppercase tracking-widest text-secondary font-bold">ESTABLISHED INDUSTRIAL PROCUREMENT</span>
+<h1 class="font-headline-lg text-headline-lg text-primary tracking-tight">VEDANT ENTERPRISES</h1>
+<p class="font-body-sm text-body-sm text-secondary font-medium mt-0.5">Premium Industrial &amp; Safety Solutions | Proprietor: Pravin Gaikwad</p>
+</div>
+</div>
+<!-- Editorial Lead Description -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl leading-relaxed">
+                Distinguished bulk supplier of regulatory-certified Personal Protective Equipment (PPE), heavy-duty surface finishing abrasives, commercial lubricants, and heavy industrial packaging solutions for manufacturing plants, heavy fabrication yards, and construction enterprises across Maharashtra and India.
+              </p>
+<!-- Direct Dispatch Metrics Strip -->
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-space-sm mt-space-sm">
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<span class="block font-headline-sm text-headline-sm text-primary">100%</span>
+<span class="font-spec-code text-spec-code text-on-surface-variant uppercase">CE &amp; IS Compliant</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<span class="block font-headline-sm text-headline-sm text-secondary">24-48h</span>
+<span class="font-spec-code text-spec-code text-on-surface-variant uppercase">Rapid Plant Dispatch</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<span class="block font-headline-sm text-headline-sm text-primary">500+</span>
+<span class="font-spec-code text-spec-code text-on-surface-variant uppercase">Factory SKUs Ready</span>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-lg shadow-sm">
+<span class="block font-headline-sm text-headline-sm text-secondary">Tier-1</span>
+<span class="font-spec-code text-spec-code text-on-surface-variant uppercase">Wholesale Mill Rates</span>
+</div>
+</div>
+</div>
+<!-- Quick Access Priority Procurement Card -->
+<div class="lg:col-span-4 bg-surface-container-lowest rounded-xl shadow-md p-space-lg flex flex-col gap-space-md">
+<div class="flex items-center justify-between pb-space-sm">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-secondary-container">bolt</span>
+<span class="font-title-lg text-title-lg text-primary font-bold">Fast-Track RFQ Desk</span>
+</div>
+<span class="font-spec-code text-spec-code bg-surface-container px-2 py-0.5 rounded text-on-surface-variant font-semibold">DIRECT LINE</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+                Connect immediately with proprietor <strong class="text-on-surface">Pravin Gaikwad</strong> for technical submittals, vendor registration, and quantity quotes.
+              </p>
+<!-- Direct Channels -->
+<div class="flex flex-col gap-space-xs">
+<!-- WhatsApp Action -->
+<a class="flex items-center justify-between px-space-md py-space-sm bg-surface-container hover:bg-surface-container-high rounded-lg shadow-sm transition-all group" href="https://wa.me/919623316837" rel="noopener" target="_blank">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-[#25D366]/15 flex items-center justify-center shrink-0">
+<svg class="w-5 h-5 fill-[#25D366]" viewbox="0 0 24 24">
+<path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path>
+</svg>
+</div>
+<div>
+<span class="block font-spec-code text-spec-code text-on-surface-variant uppercase">Instant Inquiry</span>
+<span class="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors">+91 9623316837</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px] group-hover:translate-x-1 transition-transform">send</span>
+</a>
+<!-- Official Gmail Action -->
+<a class="flex items-center justify-between px-space-md py-space-sm bg-surface-container hover:bg-surface-container-high rounded-lg shadow-sm transition-all group" href="mailto:pravingg234@gmail.com?subject=Industrial%20Inquiry%20-%20Vedant%20Enterprises">
+<div class="flex items-center gap-space-sm">
+<div class="w-8 h-8 rounded-full bg-[#EA4335]/15 flex items-center justify-center shrink-0">
+<svg class="w-5 h-5" viewbox="0 0 24 24">
+<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="#EA4335"></path>
+</svg>
+</div>
+<div>
+<span class="block font-spec-code text-spec-code text-on-surface-variant uppercase">Direct Email Desk</span>
+<span class="font-title-sm text-title-sm text-on-surface font-bold group-hover:text-primary transition-colors">pravingg234@gmail.com</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary text-[20px] group-hover:translate-x-1 transition-transform">mail</span>
+</a>
+</div>
+<div class="flex items-center justify-between pt-space-xs text-spec-code font-spec-code text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary-container"></span>Proprietor Online</span>
+<span class="">Avg Response: &lt;15 Mins</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION: HIGH-VISIBILITY QUICK CONTACT & RFQ ACTION BAR -->
+<section class="w-full bg-primary text-on-primary shadow-lg sticky top-20 z-40">
+<div class="max-w-[1360px] mx-auto px-gutter py-space-sm flex flex-col md:flex-row items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md flex-wrap justify-center md:justify-start">
+<span class="flex items-center gap-space-xs font-title-sm text-title-sm text-secondary-fixed font-bold tracking-wide">
+<span class="material-symbols-outlined text-[18px]">contact_support</span>
+              QUICK PROCUREMENT DESK:
+            </span>
+<div class="flex items-center gap-space-sm font-spec-code text-spec-code">
+<a class="flex items-center gap-1 bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 px-space-sm py-1 rounded transition-colors text-surface-bright" href="https://wa.me/919623316837" rel="noopener" target="_blank">
+<span class="w-2 h-2 rounded-full bg-[#25D366]"></span>
+                WhatsApp: +91 9623316837
+              </a>
+<a class="flex items-center gap-1 bg-surface-container-lowest/10 hover:bg-surface-container-lowest/20 px-space-sm py-1 rounded transition-colors text-surface-bright" href="mailto:pravingg234@gmail.com">
+<span class="material-symbols-outlined text-[14px]">mail</span>
+                pravingg234@gmail.com
+              </a>
+</div>
+</div>
+<div class="flex items-center gap-space-sm">
+<a class="px-space-md py-1.5 bg-secondary-container text-on-secondary-container hover:bg-secondary-fixed transition-colors font-title-sm text-title-sm font-bold rounded shadow-sm flex items-center gap-1" href="#rfq-section">
+<span class="material-symbols-outlined text-[16px]">assignment_turned_in</span>
+              Request Bulk Quotation
+            </a>
+</div>
+</div>
+</section>
+<!-- DIVISION 01: INDUSTRIAL PPE & SAFETY EQUIPMENT -->
+<section class="w-full py-space-2xl bg-surface" id="ppe-section">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<!-- Division Header Banner -->
+<div class="relative rounded-2xl overflow-hidden bg-primary text-on-primary mb-space-md shadow-lg border border-primary-container">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+<div class="lg:col-span-7 p-space-lg sm:p-space-xl flex flex-col gap-space-sm z-10">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-lowest/10 text-secondary-fixed px-space-sm py-1 rounded font-spec-code text-spec-code font-bold uppercase tracking-wider w-fit">
+<span class="material-symbols-outlined text-[16px]">shield</span> Division 01 / Factory Safety Hardware
+</div>
+<h2 class="font-headline-lg text-headline-lg text-surface-bright tracking-tight">Industrial PPE &amp; Worker Safety Equipment</h2>
+<p class="font-body-md text-body-md text-primary-fixed max-w-xl leading-relaxed">
+Full-spectrum personal protective equipment compliant with IS:2925, EN 397, and CE industrial standards for foundries, fabrication plants, refineries, and construction infrastructure.
+</p>
+<div class="flex items-center gap-space-md text-spec-code font-spec-code text-surface-dim pt-space-xs">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary-container"></span>Ex-Stock Ready</span>
+<span class="">•</span>
+<span class="">Tested Batch Certificates Available</span>
+</div>
+<!-- Accordion Toggle Button in Banner -->
+<div class="pt-space-sm">
+<button aria-controls="division-01-products" aria-expanded="true" class="division-toggle-btn inline-flex items-center gap-space-sm px-space-md py-2.5 bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container font-title-sm text-title-sm font-bold rounded-lg shadow-md transition-all group" data-target="division-01-products" type="button">
+<span class="toggle-text">View All Materials &amp; SKUs (8 Items)</span>
+<svg class="chevron-icon w-5 h-5 transition-transform duration-300 group-hover:translate-y-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+</div>
+<div class="lg:col-span-5 h-56 lg:h-full relative min-h-[220px]">
+<img alt="Industrial PPE &amp; Worker Safety Equipment Showcase" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1V-wrTaPOOsM5_cajaEQ21v4YXo7yXEgl7PrO5Qz1QXgUyjNluaEp2k72lUHFGUvM5inIjTGvi4XehkYJGi8s_K4V3k8XxLtYAzSmnTYFdhbm-GVKkqZ788WDWAZIAoEkw0PWNH5sDndQW41O2gfJq5p8ddAxdewu3PzMfX8F6eX6DaqCboOX1s2OuC0V4fxn6wDoLJ7sDQuAr6AbY3TLmexl3bfVPqSE9MzFoaCMsWtyi7uZgtTAklkpg"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary via-transparent to-transparent hidden lg:block"></div>
+</div>
+</div>
+</div>
+<!-- Collapsible Products Container: Division 01 -->
+<div class="division-accordion-content" id="division-01-products">
+<div class="accordion-inner pt-space-sm pb-space-xs">
+<!-- Product Cards Grid: Division 01 -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Item 1 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-44 relative">
+<img alt="Industrial Hard Hat with Ratchet Suspension" class="w-full h-40 object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCwKhfG-mRjfDDq9VfahkmCryHs0YpgvXXmJei__mt8tJ1mNs1pbgYKBgKp92lIFkbJ7iGODDdW0XbjfgIEfd1yIp2EVZMInlVn0cKqx1g95z1VuiTN9earhEld4D6XNqCiQ_HyVjGawi81fl8hGyI_C_SpYH24l-QJj-4r7QDlp_WB2_hl_g86JcpvPedHxY1QJ2k5CVk8WgNoTx3vcl3CtdICyWefFFs4kUxKJwEKuxego7T-22fvqZd4_I_Sv3avBw"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">IS 2925:1984</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Industrial Hard Hat with Ratchet Suspension</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">High-impact HDPE shell with 6-point adjustable ratcheting suspension &amp; chin strap.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹185 <span class="text-body-sm font-normal text-on-surface-variant">/ pc</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-44 relative">
+<img alt="High-Vis Reflective Safety Jacket" class="w-full h-40 object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLHgYLyt_rQ0JKEwvVFV5q6iO3fk0hIcHzNvvyj4ijKxFypGqofQptA4sGp6DiO1rXBf6KAFgbBx_G48NTjcSM8lfdXyJZr6HzW8j3r-mN5OSXstAOD7mgNC8sB0W_sMphp8PFYnYeBNKzFc02s3TDZg1Oof41lnOeIQ4i-2Qi2rKPtHv03ofIFr0OeM55Z8IlekplVpJUIb-z4w2dzmWlfiSKlCdI1uUcSpmX9QRSkdmSfq6beR-OCss7VghHXZxSmg"/>
+<span class="absolute top-2 right-2 bg-secondary text-on-secondary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">EN 471 CLASS 2</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">High-Vis Reflective Safety Jacket</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">120 GSM breathable fluorescent polyester with 2-inch micro-prismatic glass bead reflective strips.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹110 <span class="text-body-sm font-normal text-on-surface-variant">/ pc</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-44 relative">
+<img alt="Steel-Toe Leather Safety Work Boots" class="w-full h-40 object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBItus-6AXJnXwE9DmSH0iAq05IDVAk4gVufW-xXOHlU6-aPPrjD1OJ-fNSs__U0ZaHwmaI_sp49syQeng2TxO_3m9GrdoQJc2lozZofgLxuPQpU-EMeF5pt-MYXnpJpT_NgViIaqiSSrY-sAsAB4KBH4gPOj__kImZFvY2pLZ9wi5k5nN6Cso3sKs8xS0tOVO-PcoUFZwTHQpTAkAy-ZZyZCt1mTifQSFuijBRZmnraTMCcpT0YxZdM1mTug4NmTrajg"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">IS 15298 / S1P</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Steel-Toe Leather Safety Work Boots</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Genuine buff grain leather, 200 Joules steel toe cap, dual density oil and acid resistant PU sole.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹680 <span class="text-body-sm font-normal text-on-surface-variant">/ pair</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-44 relative">
+<img alt="Heavy Duty Nitrile Chemical Gloves" class="w-full h-40 object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvduHhq3U3nKcV1MQaMR0wLvtYMxQnBmBD8vazk66p-vj7gjHjnmLsXTI6_TNO476jHmwrlPZb5J-_nJO1y2jNDAzWvJKLiAiGzAYDQRFWbv_4QrvG8qoNao3GO2mlyazz20imDj-_4s0ltbb9c9oMcOiM4vI9Le_A8T9eIAgK1rwIxgpCOitPt1y-GqRoMPt-bxsWKdrJevzX-Zd3sY8u2GO4LSg3hb_tilXSLzbMV14_17UoUt0FmGswS0_BDhULLA"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">EN 388 / EN 374</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Heavy Duty Nitrile &amp; Chemical Gloves</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Flock-lined 15 mil green nitrile formulation resistant to solvents, caustics, and mechanical abrasions.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹75 <span class="text-body-sm font-normal text-on-surface-variant">/ pair</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-44 relative">
+<img alt="Dual Cartridge Respirator Half Mask" class="w-full h-40 object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCpHyvGqthBksO1rRyn7ZWLGsJwfjc9v4hKgfVtxmag-OFNw8VAVAE0uy07TQD3WqjaEsHS7PcDUwuZAz0FzpnCv89S7EYCkZE4FddvFlB4NL75Op-AVBrxO5ubUmRJ1DnGMLTt2lSEI1J7Tys_B2-NG4Dc9GjRBJfmgADT4eIYr8h0nv3TL-8M8SDsyAMuRR8izjAeIP4XywyudF6hC9EEOWnpedMzDWmVfZqXNgTEboZY9Mh3lzU9BI7R3zD4R4ofdQ"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">NIOSH / EN 140</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Dual Cartridge Respirator Half Mask</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Silicone sealing facepiece engineered for chemical vapor, acidic fumes, and paint overspray filtering.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹340 <span class="text-body-sm font-normal text-on-surface-variant">/ pc</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-44 relative">
+<img alt="Anti-Fog Polycarbonate Safety Goggles" class="w-full h-40 object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXvEuD8B2WbWlGun9Va-b0nSDD78JsMqp_NbajOHKGpyZPIWAMsgqAS71V6_VIAgTJnTj9nECBLMHhbKo0aRDTEqBCDVf6jFzQ4rFy9noLXESrir2Lc_KhOHvb2jrMUlHk-_fgZ-zIhGtYeCYD1TrihhuVVo0sWq-0gVKj2IVhuk0NDhxbQbjUyEHMi8q7d-g4OPy2Et-H7GcdRezb90QWvsLMYaYva9A6jS6LxM3aLt4RBHiTjuJYl0NNNNIC4W_lLQ"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">ANSI Z87.1</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Anti-Fog Polycarbonate Safety Goggles</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Wide panoramic field of vision, indirect ventilation, zero-fog and scratch-resistant optical coating.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹95 <span class="text-body-sm font-normal text-on-surface-variant">/ pc</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 7 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-44 relative">
+<img alt="ABC Dry Powder Fire Extinguisher 4kg" class="w-full h-40 object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpIcdtL7FWsWuWhLyVM-qOaiU_nNceelPKVYoqKiZ78-QmOJvwCKZcOBwarO4jH3QueyrqKcm7fhLAyUklHsX4xVmdJpNUTrExM6ykpIgf6kICOKcSkxhpqboBHQHuCeew9t0hPfWjSIHcXIzTZ7UnI-iyGorwgiV67wjOZpRq1whi8aYqfPJC2l_-xtQWyZ_huWiKmTI0Q2qnl0EXtXxkD2EfPqZ-79fv4GuLjS-NsZ9HOM6Sq2WL1xNQzX7ZTSCehw"/>
+<span class="absolute top-2 right-2 bg-error text-on-error text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">IS 15683 / BIS</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">ABC Dry Powder Fire Extinguisher (4kg/6kg)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Stored pressure monoammonium phosphate cylinder rated for Class A, B, and C factory fire hazards.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹1,150 <span class="text-body-sm font-normal text-on-surface-variant">/ unit</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 8 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-44 relative">
+<img alt="Heavy-Duty Barricade Caution Tape" class="w-full h-40 object-contain p-2" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvyR-OFp6vNwH-t1IdTbbC9qQWAIcHTKeTEamhdI2V9O6CBt-XSeUkqOSScj_Ic19lEaKM6gPPSGO4WE3yHBKnJ7cHkg5STpS2J-o9603W9_3AsC6if4Du-hum8QrAYPDfKlMBCgJT6-y47rKCXx4Na9wJgcLDbBkt_gduY68rnoSeUCWuXkFDoneJ7IUTZ50dWyOW2dfcMWg07jGkpL0IVLlsdlooAbY1I1ygZZ5VvNc75nVkzO75dc7YR-3dpTMZ9w"/>
+<span class="absolute top-2 right-2 bg-secondary text-on-secondary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">500M ROLL</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Heavy-Duty Barricade Caution Tape</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">High-tensile virgin PE non-adhesive danger strip in high-visibility yellow/black and red/white.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹240 <span class="text-body-sm font-normal text-on-surface-variant">/ roll</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- DIVISION 02: ABRASIVES & PRECISION GRINDING -->
+<section class="w-full py-space-2xl bg-surface-container-low" id="abrasives-section">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<!-- Division Header Banner -->
+<div class="relative rounded-2xl overflow-hidden bg-tertiary text-on-tertiary mb-space-md shadow-lg border border-tertiary-container">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+<div class="lg:col-span-7 p-space-lg sm:p-space-xl flex flex-col gap-space-sm z-10">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-lowest/10 text-secondary-container px-space-sm py-1 rounded font-spec-code text-spec-code font-bold uppercase tracking-wider w-fit">
+<span class="material-symbols-outlined text-[16px]">tune</span> Division 02 / Precision Finishing &amp; Cutting
+</div>
+<h2 class="font-headline-lg text-headline-lg text-surface-bright tracking-tight">Abrasives &amp; Precision Grinding Solutions</h2>
+<p class="font-body-md text-body-md text-tertiary-fixed-dim max-w-xl leading-relaxed">
+Engineered coated, bonded, and non-woven media for weld seam flattening, rapid deburring, metal prep, and surface mirror finishing across fabrication and auto plants.
+</p>
+<div class="flex items-center gap-space-md text-spec-code font-spec-code text-on-tertiary-container pt-space-xs">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary-container"></span>Grits: P24 to P2000</span>
+<span class="">•</span>
+<span class="">Zirconia, Ceramic &amp; SiC Formulations</span>
+</div>
+<!-- Accordion Toggle Button in Banner -->
+<div class="pt-space-sm">
+<button aria-controls="division-02-products" aria-expanded="true" class="division-toggle-btn inline-flex items-center gap-space-sm px-space-md py-2.5 bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container font-title-sm text-title-sm font-bold rounded-lg shadow-md transition-all group" data-target="division-02-products" type="button">
+<span class="toggle-text">Explore Division Products &amp; Wholesale Rates (6 Items)</span>
+<svg class="chevron-icon w-5 h-5 transition-transform duration-300 group-hover:translate-y-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+</div>
+<div class="lg:col-span-5 h-56 lg:h-full relative min-h-[220px]">
+<img alt="Industrial Abrasives Showcase" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1WCaHJjSSF8x5jMe7FuYkVJru2RoTaZnSiA9895pd6Rp2EU89vvfB5ZR1SlDoRpEYCkPvTaDrTiLNkuYlzkgH47Mqvw50hzSr5xmrTvaJGwuRlNFaWxbFhOrxcedcV2QFNxSCq_GkxqPjJjvnmh-pSp66GIZcPB6CofW9n8L5AjqPQSqfKk0gmdxeZ0qnuDNZF--9yMAXmrgj1w6daPfoV8BGxIxIURbC5kUgBnrsSX3gyPMcznES5OEg"/>
+<div class="absolute inset-0 bg-gradient-to-r from-tertiary via-transparent to-transparent hidden lg:block"></div>
+</div>
+</div>
+</div>
+<!-- Collapsible Products Container: Division 02 -->
+<div class="division-accordion-content" id="division-02-products">
+<div class="accordion-inner pt-space-sm pb-space-xs">
+<!-- Product Cards Grid: Division 02 -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Item 1 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Velcro Sanding Discs 5-inch / 6-inch" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XMfYRmQqv5kzFLvlV5wZSxBfM9W0-KPRvnYUCHUq_j78lhdzI2OuB2c_gnHfg3vU0y2KpH8fLxzqIPNtjLJjTSGhckCBu2IvHPKzb399e47wnKZD23c3VHHBtNDIhfNgIY5sj_9RL6811u4qd00p_3nnAgKgtvd3kSJYjctxAWNhrRKbpi6NBCApvHRFER6phbPkms-80O1iA-BGLTxpAPxAi4G62fvlyjj5CBjuUomNFxGNMcpUAxlQ"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">P40 - P800 GRIT</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Velcro Sanding Discs (5" &amp; 6" Multi-Hole)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Hook and loop orbital paper discs with multi-hole anti-clog dust extraction backing for wood and metal finishing.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹14 <span class="text-body-sm font-normal text-on-surface-variant">/ disc (Box of 100)</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Zirconia Flap Discs 4-inch" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WCaHJjSSF8x5jMe7FuYkVJru2RoTaZnSiA9895pd6Rp2EU89vvfB5ZR1SlDoRpEYCkPvTaDrTiLNkuYlzkgH47Mqvw50hzSr5xmrTvaJGwuRlNFaWxbFhOrxcedcV2QFNxSCq_GkxqPjJjvnmh-pSp66GIZcPB6CofW9n8L5AjqPQSqfKk0gmdxeZ0qnuDNZF--9yMAXmrgj1w6daPfoV8BGxIxIURbC5kUgBnrsSX3gyPMcznES5OEg"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">TYPE 27 &amp; 29</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Zirconia Flap Disc 4" &amp; 4.5" (Heavy Blend)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">High-density fiberglass backing with overlapping zirconia alumina cloth flaps for aggressive weld blending.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹42 <span class="text-body-sm font-normal text-on-surface-variant">/ disc</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Double Mesh Reinforced Cutting Wheels" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VQnD-IlcUcab0dNjYb4WBnS1piAIMfgdAVAEOxzimXgrCTcQ2lZJT9SMgBVLYDLoqrWaKx8kexVi0u9jpI5l29XqxmTLoT1z4NI-RWkmLq6wXDbIcWE5-NIMFytOflWTweMf40yLW2ag_uMwyLqCFI3LG8m-0EucfVVbue5bCJy89N6WWgXdn9naDAC7OI2afZ9ihRJaVEWghSyrdyXkEpAEJ29HzROGmy_7wSrkytq52CbPk9yNXKcdk"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">EN 12413 CERTIFIED</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Reinforced Cut-Off Wheels 4" (1.0mm Thin)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Double fiberglass netting reinforcement for ultra-fast, burr-free cuts on stainless steel and MS pipes.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹18 <span class="text-body-sm font-normal text-on-surface-variant">/ wheel (Box of 50)</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Continuous Cloth Sanding Belts" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XK62MYNadKYruS8m4QTjhAgQtOoal_ozBfY4aaok6RB1OkkWUBQz6CX5bWcnk7AOp9WpxEu8mJKCwl0JiGYfDsD3yD94VN0HJDB4qpT7rVjpOuASqSmdUjj9W9A-4KBxTqmlwmsajOR_L87VNCXS8ArLthsGsT6xkfrye95dZca1AdPIkMdwSncw5cdLySPas11OY0UQA7d6949JQQgaZVLb-ggUOPu2SpvXTmTKNrrxbw9Xrl18HVG-U"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">X-WEIGHT CLOTH</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Heavy Industrial Sanding Belts (Custom Sizes)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Polyester cloth backing with precision bi-directional joint for stroke sanders, pipe grinders, and edge sanders.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹145 <span class="text-body-sm font-normal text-on-surface-variant">/ belt</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Waterproof Silicon Carbide Sandpaper Sheets" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X95nBHXcYX78JujHltAkHEZi49Wr3UDmOX-bE_VdLdgzYp2bdlGiPeWKWrWg4cbOIWe0sZhqFZYEh4WUlv4QdaKXEC5qv5ta-kLdsStao1F0-9sYdA2VzCql6bkSHBfiDa7u-moKNMzLX1KbKM1yV79u6EJYVBJ7RUw35Wo6EQwLyUcaMefue6-GZqN_ENwVL5XGzfDgH0rKVB0KXQWLQCzCka8sB_Sdjfu30GDs9vEdEiwIXEFqAPAlQ"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">230mm x 280mm</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Waterproof Silicon Carbide Sandpaper (9"x11")</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Electro-coated latex C-weight paper sheets for automotive primer wet sanding and precision body work.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹620 <span class="text-body-sm font-normal text-on-surface-variant">/ pack of 50 sheets</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Non-Woven Scuff Pads and Polishing Wheels" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XH6bn0TMhazNOXtqU4YqLP6QRXTs1vwzUjNRhOSrR0Yf8dG-HBw54hnqWaz3wh29s2I8wGOCHuL_QqJRaJnnwPE38Hu2mBCyrQw7SLcbF2qpjH4Zdy-faX6mwLYnr6EmWTQp2qaUqG1pcdpS2Lv4JO3G0-5CW_wLtAPcsisQihhqswNgcXQPuoGVky0LKt1EgkMXeSg1ihJ7zDP40CPJi25JuDmd_rhyU5DbPUNgRl44epMTOg3zbmdg"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">COARSE / MED / ULTRA FINE</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Non-Woven Hand Pads &amp; Polishing Discs</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Three-dimensional nylon fiber impregnated with abrasive mineral for stainless satin finishing and rust cleaning.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹38 <span class="text-body-sm font-normal text-on-surface-variant">/ pad</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- DIVISION 03: INDUSTRIAL LUBRICANTS & FLUIDS -->
+<section class="w-full py-space-2xl bg-surface" id="lubricants-section">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<!-- Division Header Banner -->
+<div class="relative rounded-2xl overflow-hidden bg-primary-container text-on-primary mb-space-md shadow-lg border border-primary">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+<div class="lg:col-span-7 p-space-lg sm:p-space-xl flex flex-col gap-space-sm z-10">
+<div class="inline-flex items-center gap-space-xs bg-surface-container-lowest/10 text-secondary-container px-space-sm py-1 rounded font-spec-code text-spec-code font-bold uppercase tracking-wider w-fit">
+<span class="material-symbols-outlined text-[16px]">water_drop</span> Division 03 / Heavy Plant Tribology
+</div>
+<h2 class="font-headline-lg text-headline-lg text-surface-bright tracking-tight">Industrial Lubricants, Greases &amp; Fluids</h2>
+<p class="font-body-md text-body-md text-surface-dim max-w-xl leading-relaxed">
+Heavy-duty industrial hydraulic oils, extreme-pressure gear fluids, engine synthetics, and high-temperature machinery greases in certified factory packaging from 1L to 200L drums.
+</p>
+<div class="flex items-center gap-space-md text-spec-code font-spec-code text-surface-variant pt-space-xs">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary-container"></span>ISO VG 32 to VG 460</span>
+<span class="">•</span>
+<span class="">DIN 51517 &amp; API GL-5 Standards</span>
+</div>
+<!-- Accordion Toggle Button in Banner -->
+<div class="pt-space-sm">
+<button aria-controls="division-03-products" aria-expanded="true" class="division-toggle-btn inline-flex items-center gap-space-sm px-space-md py-2.5 bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container font-title-sm text-title-sm font-bold rounded-lg shadow-md transition-all group" data-target="division-03-products" type="button">
+<span class="toggle-text">View All Materials &amp; SKUs (5 Items)</span>
+<svg class="chevron-icon w-5 h-5 transition-transform duration-300 group-hover:translate-y-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+</div>
+<div class="lg:col-span-5 h-56 lg:h-full relative min-h-[220px]">
+<img alt="Industrial Lubricants and Fluids Range" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1VCsTWW6u5OWUeb3zonuU3RtsQUf8APBCmsLvpzbOfafA7Oa94l6jpYDcJhrKyT2q1MvGU8tOTsHoBCGQymaRfmGIVbHAB3u6iof8Tgb7AV0H-Deilc9rB3Jrx0i2b9LqafArASXiYAaI7AlshzL54Cq4V9JKe2vKSxun5RQfqu015HkvRWzlVjFojQcpGbzcKVUP_CoxFRSGvzVyLbqC327cM-cJxurZt1a9pgHBnNDzlCA86v8JHi7Q0"/>
+<div class="absolute inset-0 bg-gradient-to-r from-primary-container via-transparent to-transparent hidden lg:block"></div>
+</div>
+</div>
+</div>
+<!-- Collapsible Products Container: Division 03 -->
+<div class="division-accordion-content" id="division-03-products">
+<div class="accordion-inner pt-space-sm pb-space-xs">
+<!-- Product Cards Grid: Division 03 -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-space-md">
+<!-- Item 1 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Hydraulic Oil ISO VG 46/68 200L Drum" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UStAen-_ZR0MK-x2cn7pdE-dY8M7S8IVrHwWIUad8zPa1HNqAZzhI4fS8RYbdo4N6FnrTYR-DesyLAPZnJAi7CPoytOtfb4X8e_-_Du8OCf6sSS0H-Dvuy0m0cqob7DW0ZY2_WVIihFnNHK8yPpC1Ck2YnJ9xmtR2j6aSF051wzL523ntAy150Spg2YyGg0pfUOqo1DnidMNVNQx93LVL__Mca_o8S7bCQJfFh_wD5wVVT7FZo9edfCA"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">200L BARREL</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Hydraulic Fluid HD46 / HD68 (200L Drum)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Anti-wear premium hydraulic fluid for high-pressure industrial pumps, presses, and CNC systems.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹34,500 <span class="text-body-sm font-normal text-on-surface-variant">/ drum</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Hydraulic Oil 25L Canister" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1VCsTWW6u5OWUeb3zonuU3RtsQUf8APBCmsLvpzbOfafA7Oa94l6jpYDcJhrKyT2q1MvGU8tOTsHoBCGQymaRfmGIVbHAB3u6iof8Tgb7AV0H-Deilc9rB3Jrx0i2b9LqafArASXiYAaI7AlshzL54Cq4V9JKe2vKSxun5RQfqu015HkvRWzlVjFojQcpGbzcKVUP_CoxFRSGvzVyLbqC327cM-cJxurZt1a9pgHBnNDzlCA86v8JHi7Q0"/>
+<span class="absolute top-2 right-2 bg-secondary text-on-secondary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">25L CARBOY</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Hydraulic Fluid ISO 68 (25L Canister)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Commercial factory-sealed carboy with anti-foaming and anti-oxidation additives for fast shop top-ups.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹4,650 <span class="text-body-sm font-normal text-on-surface-variant">/ can</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Synthetic Engine Oil 5W-30" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1W1o8IndMr7pCyTFg4PXo696omxsyyteN5yhL4FU8wxo9L9vhrgDxG_z6YV5AB-QhnGr6aaI_5ppE9HhAFmRhwGaWOu7ZvYv4YTw0ggKPzlBPG1bmPdx6GLt2ZdfGM6uyT5G9-anZC4FdpxD9ogGrhy8wXiBLlJlcBkKNMp8MNX3A5iVjlFRN184XvPrnjHGxElqeWQgDfwMDCr_BeFpxAsR6ROpHCrN11WioaoVwrZOXamlUo0PLUCKC8"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">API SP / CF</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Fully Synthetic Motor Oil 5W-30 (5L Can)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Advanced thermal stability for factory vehicle fleets, diesel backup generators, and forklifts.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹1,950 <span class="text-body-sm font-normal text-on-surface-variant">/ 5L can</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Extreme Pressure Gear Oil 80W-90" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UXIlfUctl7hBQtYHB0UO2J_Zm1WTZYZ0rvLMei55fez3gn_G1giBXToQvcoUHEvGLQcCDAxFbJ27Xc70aVY8Z_VxzrrVnfeov9x2eTIeJowsAAEMPdD_YDHq2jR3u4FII1qlzvVGqFQfdZ_avFzWjs2-H3jkx37By99zwUiAfUS7PM7ggGgGm8no4iCeTwRSIVb1Ch79n3XS9lT96rqoqWbB4WBU99y857GTYt3ptsz-JNWjuhKt3ReXA"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">API GL-5</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Ultra Heavy Gear Oil 80W-90 (1L / 5L)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Extreme pressure hypoid gear lubricant formulated for reduction gearboxes and heavy axle loads.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹420 <span class="text-body-sm font-normal text-on-surface-variant">/ 1L bottle</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="High-Temperature Industrial Grease" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XLqsfTjBOIveC4g4Z1ud45GnqF2L3l6wCocQnOlZSeyUkJ16uISNXdZTo0r6qrzyCUNXuyYWwHFBsYFXfZ0EKTn2Q9ywLhtu_mjiF5NSUMwV62eRMO7p5FNI9cbJ1OaiavIrvFzob1cCVwWCx1N0kf43zG0BzOE2on222PwnB--fDAvkvwiPivcis5HMp2sLs0TVUbPCq9TFzwpmq5zF1XqWs8D8N3NclvPJnBAFC6hJX2Jdt7On51eyM"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">NLGI 2 / 3</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">High-Temp Lithium Complex Grease (1kg Tub)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Multi-purpose bearing grease with extreme water washout resistance up to 180°C continuous duty.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹310 <span class="text-body-sm font-normal text-on-surface-variant">/ kg tub</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- DIVISION 04: INDUSTRIAL PACKAGING & MATERIAL HANDLING -->
+<section class="w-full py-space-2xl bg-surface-container-low" id="packaging-section">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<!-- Division Header Banner -->
+<div class="relative rounded-2xl overflow-hidden bg-surface-container-highest text-on-surface mb-space-md shadow-lg border border-outline-variant">
+<div class="grid grid-cols-1 lg:grid-cols-12 items-center">
+<div class="lg:col-span-7 p-space-lg sm:p-space-xl flex flex-col gap-space-sm z-10">
+<div class="inline-flex items-center gap-space-xs bg-primary text-on-primary px-space-sm py-1 rounded font-spec-code text-spec-code font-bold uppercase tracking-wider w-fit">
+<span class="material-symbols-outlined text-[16px]">inventory_2</span> Division 04 / Dispatch &amp; Warehousing
+</div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Industrial Packaging &amp; Material Handling</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl leading-relaxed">
+Heavy packaging solutions for secure transit, container bundling, and export palletizing: stretch films, BOPP tapes, composite strapping, corrugated boxes, and foam rolls.
+</p>
+<div class="flex items-center gap-space-md text-spec-code font-spec-code text-secondary font-semibold pt-space-xs">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-secondary-container"></span>Export-Grade Quality</span>
+<span class="">•</span>
+<span class="">Heavy Mil Thickness &amp; Tear Resistant</span>
+</div>
+<!-- Accordion Toggle Button in Banner -->
+<div class="pt-space-sm">
+<button aria-controls="division-04-products" aria-expanded="true" class="division-toggle-btn inline-flex items-center gap-space-sm px-space-md py-2.5 bg-primary hover:bg-primary-container text-on-primary font-title-sm text-title-sm font-bold rounded-lg shadow-md transition-all group" data-target="division-04-products" type="button">
+<span class="toggle-text">Explore Division Products &amp; Wholesale Rates (6 Items)</span>
+<svg class="chevron-icon w-5 h-5 transition-transform duration-300 group-hover:translate-y-0.5" fill="none" stroke="currentColor" stroke-width="2.5" viewbox="0 0 24 24">
+<path d="M19 9l-7 7-7-7" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>
+</button>
+</div>
+</div>
+<div class="lg:col-span-5 h-56 lg:h-full relative min-h-[220px] bg-white flex items-center justify-center p-2">
+<img alt="Industrial Packaging &amp; Material Handling Supplies" class="w-full h-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UWe4Mie3y__eMPSZd0MlC220e3lfibrHMsJeCVbfwV270tvLdk6k08YRECEI57OKFfbOy9W5_QPZe4lrBIs07MMAnT-XQ6Ld0IBUujCnTi4zl6rafxAgmLEZLwrvhgrmluThK4eQbVnTO-_wn8lczyGvwo0keSHUzyT_1f8aTRnAKrhyEBRyQvPJx_cj8bHlvjDQ7VC7G0nFeO65-arXc9z3jHNr2YsUpbBO7fvnq-rob8jxc7oR1m3Hg"/>
+</div>
+</div>
+</div>
+<!-- Collapsible Products Container: Division 04 -->
+<div class="division-accordion-content" id="division-04-products">
+<div class="accordion-inner pt-space-sm pb-space-xs">
+<!-- Product Cards Grid: Division 04 -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Item 1 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Stretch Wrap Pallet Film Roll" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Ucrf8tWmlmSF7Ta0kmhxx4If0fBBsNQWV1H6B5Y3l2o5zwOV2lpuSr7KT9AckzkacCABd9fDqneV0v1xy4XofLuNWW-5iWXjRFxv_E8VXvRryiV3lfJTh0IezH2LdqC7nCh-EVt0J53GwLFlE-ph4yYS3exzm2mGBqMUuLBtMQolwnPTSQ0nGWx2UCslSjyWxJKariFIN1pvy0y_zXUQlZfMOZhrAp2hZy6D65johD_hQIVfrMuBe7Htc"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">23 MICRON / 500MM</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Cast Stretch Wrap Pallet Film Roll (500mm)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">High elongation, puncture-resistant transparent film for secure pallet load wrapping and weatherproofing.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹380 <span class="text-body-sm font-normal text-on-surface-variant">/ roll</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="BOPP Carton Sealing Tape" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UWe4Mie3y__eMPSZd0MlC220e3lfibrHMsJeCVbfwV270tvLdk6k08YRECEI57OKFfbOy9W5_QPZe4lrBIs07MMAnT-XQ6Ld0IBUujCnTi4zl6rafxAgmLEZLwrvhgrmluThK4eQbVnTO-_wn8lczyGvwo0keSHUzyT_1f8aTRnAKrhyEBRyQvPJx_cj8bHlvjDQ7VC7G0nFeO65-arXc9z3jHNr2YsUpbBO7fvnq-rob8jxc7oR1m3Hg"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">48MM X 65M</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Heavy BOPP Carton Sealing Tape (Brown / Clear)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">High-tack pressure-sensitive acrylic adhesive formulation ensuring zero carton opening during transit.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹36 <span class="text-body-sm font-normal text-on-surface-variant">/ roll (Box of 72)</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 3 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="PP Strapping Rolls &amp; Tensioner Clips" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Vb-n_2IMLJmAot2eYdj-xnZRiO3-tM5TEOnD_ZYJI7jpampoNGcZeqIQeChgavN-NAZLU0hXLPOeCAeOxdZF4zaA3nuaUxXJ575EIsk20KnRvbAE1qRHhKfEBQ2VhRtROrISUF7z-zE5s2kd48gWyTFSU9IQGkvoDPgbr9g_pxCqScpj4hfDXCTLAR3m10a8tODLJKMtpuE2Ct-COFxuoVfN14HItiqpIF8G7TszWUU3AOszBr1MkBl48"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">12MM / 15MM ROLLS</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">PP / PET Strapping Rolls &amp; Tensioner Metal Clips</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">High break strength polypropylene strapping coils paired with zinc-coated serrated steel lock seals.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹1,180 <span class="text-body-sm font-normal text-on-surface-variant">/ coil</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 4 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Air Bubble Wrap Rolls" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1UQ6Yt4iPuZo8CL6hdMmlh0rphFMX4Acsq9s1OHeqgR9Zs6vldVB2yLqEBT56PRJDtkb0xThLpb3E4_5PG8AXBKLZrZM0FkJPunsCJcb4grDxu3COGa-v3-72wfwvnKFfj3g2IR6jpKhrnnKLDFWQ-Bz2-LNTXFUsvUikadk_-E_MyVRT4YY2WlK7KBTd0vqNUG8rVUrLXgaY8DEJSOtmtF0YDjRWhhm2SwQH8ktpUm4P7YEal6Xz2OR-4"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">100 METRE ROLL</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Heavy Cushioning Air Bubble Wrap Rolls (1M x 100M)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Double-layer shock absorbent bubble cushioning for sensitive instruments, electronics, and precision parts.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹720 <span class="text-body-sm font-normal text-on-surface-variant">/ roll</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 5 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="Heavy 5-Ply / 7-Ply Corrugated Boxes" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcl9qk5fvpjf4HJonCDfjla8cRxUVu710MypNINNo1BOkGZBe6p7QpwQw4dg-LNpBP59eHCPE4zWB3VycUMp7LWfTHJk7zFgVMiArgfNa--FodpFP554RGaUTj1AGCyaqyytzmrlUBsTuf6pze7BQGAGs4wFj9uPi5A_Iugoch4KadLXjP3psjn1PuYEMJuIvz9s8D8X2km1krrba3GhMvIUWAX6nUyOF6dLvcSs3bU8G4cQuprvVh2ruvI57_ja4CBA"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">5-PLY / 7-PLY</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">Heavy-Duty Corrugated Master Shippers (Export Grade)</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Virgin Kraft paper high-burst factor shipping cartons designed for heavy engineering component logistics.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹55 <span class="text-body-sm font-normal text-on-surface-variant">/ box (Min. 250 units)</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+<!-- Item 6 -->
+<div class="bg-surface-container-lowest rounded-xl border border-surface-container-high shadow-sm hover:shadow-md transition-shadow overflow-hidden flex flex-col justify-between">
+<div class="p-space-md bg-surface-container-low flex items-center justify-center h-48 relative">
+<img alt="EPE Protective Foam Rolls and Sheets" class="max-h-40 max-w-full object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcl9qk5fvpjf4HJonCDfjla8cRxUVu710MypNINNo1BOkGZBe6p7QpwQw4dg-LNpBP59eHCPE4zWB3VycUMp7LWfTHJk7zFgVMiArgfNa--FodpFP554RGaUTj1AGCyaqyytzmrlUBsTuf6pze7BQGAGs4wFj9uPi5A_Iugoch4KadLXjP3psjn1PuYEMJuIvz9s8D8X2km1krrba3GhMvIUWAX6nUyOF6dLvcSs3bU8G4cQuprvVh2ruvI57_ja4CBA"/>
+<span class="absolute top-2 right-2 bg-primary text-on-primary text-[10px] font-spec-code font-bold px-2 py-0.5 rounded uppercase">2MM - 10MM THICK</span>
+</div>
+<div class="p-space-md flex flex-col flex-1 justify-between">
+<div>
+<h4 class="font-title-sm text-title-sm text-primary font-bold leading-snug">EPE Expanded Polyethylene Protective Foam Rolls</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Non-abrasive surface barrier protection preventing scratches on painted steel panels and finished machinery.</p>
+</div>
+<div class="mt-space-md pt-space-sm border-t border-surface-container">
+<div class="text-headline-sm font-bold text-secondary">₹890 <span class="text-body-sm font-normal text-on-surface-variant">/ roll</span></div>
+<p class="font-spec-code text-[11px] text-on-surface-variant uppercase tracking-wider mt-0.5">Wholesale Tier Pricing Available</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: TRUST & CLASSIC HERITAGE SECTION -->
+<section class="w-full py-space-2xl bg-surface-container-lowest" id="about-section">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Heritage Story & Owner Trust -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<div class="flex items-center gap-space-xs text-secondary font-spec-code text-spec-code font-bold uppercase tracking-wider">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+                Distinguished Industrial Heritage
+              </div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">
+                About Vedant Enterprises
+              </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+                Headquartered in Maharashtra and serving heavy engineering hubs nationwide, <strong class="text-on-surface">Vedant Enterprises</strong> has established an unyielding reputation as an authorized distributor of critical safety, abrasive, maintenance, and packaging supplies.
+              </p>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+                Under the experienced leadership of proprietor <strong class="text-on-surface">Pravin Gaikwad</strong>, we do not simply sell commodities; we partner with factory safety officers, purchase heads, and maintenance superintendents to ensure uncompromising safety compliance, minimal machine downtime, and certified product provenance.
+              </p>
+<!-- 4 Core Pillars of Vedant Enterprises -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md pt-space-sm">
+<div class="p-space-md bg-surface-container-low rounded-lg shadow-sm flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[28px] shrink-0 mt-0.5">verified_user</span>
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface font-bold">100% Certified Safety Compliance</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Every batch of PPE and abrasive discs satisfies BIS, EN, and OSHA safety norms with authentic test records.</p>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg shadow-sm flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[28px] shrink-0 mt-0.5">inventory_2</span>
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface font-bold">Bulk Supply Across Industries</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Specialized bulk logistics for automotive OEMs, foundries, civil infrastructure contractors, and shipyards.</p>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg shadow-sm flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[28px] shrink-0 mt-0.5">local_shipping</span>
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface font-bold">Rapid Dispatch &amp; Reliable Logistics</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Immediate stock holding guarantees prompt warehouse dispatch within 24 to 48 hours for urgent plant shutdowns.</p>
+</div>
+</div>
+<div class="p-space-md bg-surface-container-low rounded-lg shadow-sm flex items-start gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[28px] shrink-0 mt-0.5">price_check</span>
+<div>
+<h4 class="font-title-sm text-title-sm text-on-surface font-bold">Competitive Wholesale Pricing</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-0.5">Direct mill connections and factory-direct volume quotas pass substantial cost advantages to your procurement balance sheet.</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Proprietor Assurance Card -->
+<div class="lg:col-span-5 bg-tertiary text-on-tertiary rounded-xl shadow-xl p-space-xl relative overflow-hidden">
+<div class="relative z-10 flex flex-col gap-space-md">
+<!-- Auspicious Tag -->
+<div class="flex items-center justify-between">
+<span class="text-secondary-container font-spec-code text-spec-code font-bold tracking-widest uppercase">॥ श्री गणेशाय नमः ॥</span>
+<span class="bg-surface-container-lowest/15 px-space-sm py-0.5 rounded text-spec-code font-spec-code text-surface-bright">PROPRIETORSHIP</span>
+</div>
+<div class="flex items-center gap-space-md">
+<div class="w-14 h-14 rounded-full bg-secondary-container text-on-secondary-container font-headline-md text-headline-md flex items-center justify-center font-bold shrink-0 shadow-md">
+                    PG
+                  </div>
+<div>
+<h3 class="font-headline-sm text-headline-sm text-surface-bright font-bold">Pravin Gaikwad</h3>
+<p class="font-body-sm text-body-sm text-on-tertiary-container">Proprietor &amp; Chief Industrial Consultant</p>
+<p class="font-spec-code text-spec-code text-secondary-fixed mt-0.5">VEDANT ENTERPRISES</p>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-tertiary-container leading-relaxed italic border-l-2 border-secondary-container pl-space-md my-space-xs">
+                  "We take industrial safety and tooling reliability as a solemn commitment. When your workmen wear our gear or your machines run on our lubricants, you have our personal guarantee of quality and endurance."
+                </p>
+<!-- Verification points -->
+<div class="flex flex-col gap-space-xs pt-space-xs font-spec-code text-spec-code text-surface-bright">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">done_all</span>
+<span class="">Direct Personal Supervision on Major Supply Tenders</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">done_all</span>
+<span class="">GST Invoicing with Full Input Tax Credit (ITC)</span>
+</div>
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary-container text-[18px]">done_all</span>
+<span class="">Material Safety Data Sheets (MSDS) &amp; MTC provided</span>
+</div>
+</div>
+<!-- Direct Contact buttons -->
+<div class="grid grid-cols-2 gap-space-sm pt-space-sm">
+<a class="py-2.5 bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container font-title-sm text-title-sm font-bold text-center rounded transition-colors flex items-center justify-center gap-1 shadow-sm" href="https://wa.me/919623316837" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span> Chat Now
+                  </a>
+<a class="py-2.5 bg-surface-container-lowest/15 hover:bg-surface-container-lowest/25 text-surface-bright font-title-sm text-title-sm font-bold text-center rounded transition-colors flex items-center justify-center gap-1" href="tel:+919623316837">
+<span class="material-symbols-outlined text-[16px]">call</span> Call Direct
+                  </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: MASTER CONSOLIDATED RFQ & BULK QUOTATION PORTAL (SINGLE INQUIRY SECTION) -->
+<section class="w-full py-space-2xl bg-surface-container-low border-t border-surface-container-high" id="rfq-section">
+<div class="max-w-[1360px] mx-auto px-gutter">
+<!-- Section Title -->
+<div class="text-center max-w-3xl mx-auto mb-space-xl">
+<div class="inline-flex items-center gap-1 text-secondary font-spec-code text-spec-code font-bold uppercase tracking-wider mb-2">
+<span class="material-symbols-outlined text-[16px]">edit_document</span>
+              CONSOLIDATED INDUSTRIAL QUOTATION DESK
+            </div>
+<h2 class="font-headline-lg text-headline-lg text-primary tracking-tight">Request Bulk Quotation &amp; Specification Submittal</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+              Submit your required items, Bill of Quantities (BOQ), or estimated monthly volume below. Pravin Gaikwad and the Vedant Enterprises sales desk will send an official commercial quote with slab pricing within 15-30 minutes.
+            </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-start">
+<!-- Interactive RFQ Form -->
+<div class="lg:col-span-8 bg-surface-container-lowest rounded-xl shadow-md p-space-lg sm:p-space-xl border border-surface-container-high">
+<form class="flex flex-col gap-space-md" id="vedant-rfq-form">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-title-sm text-title-sm text-on-surface mb-1 font-semibold" for="rfq-name">Your Name / Contact Person *</label>
+<input class="w-full px-space-md py-2.5 rounded border border-surface-container-high bg-surface-container text-on-surface font-body-sm text-body-sm focus:ring-2 focus:ring-primary outline-none" id="rfq-name" placeholder="e.g. Ramesh Kadam" required="" type="text"/>
+</div>
+<div>
+<label class="block font-title-sm text-title-sm text-on-surface mb-1 font-semibold" for="rfq-company">Company / Factory Name *</label>
+<input class="w-full px-space-md py-2.5 rounded border border-surface-container-high bg-surface-container text-on-surface font-body-sm text-body-sm focus:ring-2 focus:ring-primary outline-none" id="rfq-company" placeholder="e.g. Precision Engineering Works Ltd." required="" type="text"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-title-sm text-title-sm text-on-surface mb-1 font-semibold" for="rfq-phone">Phone / WhatsApp Number *</label>
+<input class="w-full px-space-md py-2.5 rounded border border-surface-container-high bg-surface-container text-on-surface font-body-sm text-body-sm focus:ring-2 focus:ring-primary outline-none" id="rfq-phone" placeholder="+91 98XXXXXXXX" required="" type="tel"/>
+</div>
+<div>
+<label class="block font-title-sm text-title-sm text-on-surface mb-1 font-semibold" for="rfq-email">Email Address *</label>
+<input class="w-full px-space-md py-2.5 rounded border border-surface-container-high bg-surface-container text-on-surface font-body-sm text-body-sm focus:ring-2 focus:ring-primary outline-none" id="rfq-email" placeholder="purchase@company.com" required="" type="email"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div>
+<label class="block font-title-sm text-title-sm text-on-surface mb-1 font-semibold" for="rfq-category">Primary Product Division *</label>
+<select class="w-full px-space-md py-2.5 rounded border border-surface-container-high bg-surface-container text-on-surface font-body-sm text-body-sm focus:ring-2 focus:ring-primary outline-none" id="rfq-category">
+<option value="01. Industrial PPE &amp; Worker Safety Equipment">01. Industrial PPE &amp; Safety Equipment</option>
+<option value="02. Abrasives &amp; Precision Grinding">02. Abrasives &amp; Precision Grinding</option>
+<option value="03. Industrial Lubricants, Greases &amp; Oils">03. Industrial Lubricants, Greases &amp; Oils</option>
+<option value="04. Industrial Packaging &amp; Material Handling">04. Industrial Packaging &amp; Material Handling</option>
+<option value="Multiple Divisions Combined (Factory BOQ)">Multiple Divisions Combined (Factory BOQ)</option>
+</select>
+</div>
+<div>
+<label class="block font-title-sm text-title-sm text-on-surface mb-1 font-semibold" for="rfq-qty">Estimated Quantity / Urgency</label>
+<input class="w-full px-space-md py-2.5 rounded border border-surface-container-high bg-surface-container text-on-surface font-body-sm text-body-sm focus:ring-2 focus:ring-primary outline-none" id="rfq-qty" placeholder="e.g. 200 Pairs Shoes, 10 Rolls Stretch Wrap / Urgent" type="text"/>
+</div>
+</div>
+<div>
+<label class="block font-title-sm text-title-sm text-on-surface mb-1 font-semibold" for="rfq-details">Bill of Quantities / Specific Items &amp; Specifications</label>
+<textarea class="w-full px-space-md py-2.5 rounded border border-surface-container-high bg-surface-container text-on-surface font-body-sm text-body-sm focus:ring-2 focus:ring-primary outline-none" id="rfq-details" placeholder="Detail your exact requirements: Helmet color, Glove cut resistance level, Sanding belt dimensions &amp; grit, Lubricant drum grade (Gear 220), BOPP tape thickness, etc." rows="4"></textarea>
+</div>
+<!-- Action buttons: Direct WhatsApp / Direct Email triggers -->
+<div class="flex flex-col sm:flex-row items-center gap-space-md pt-space-sm">
+<button class="w-full sm:flex-1 py-3 bg-secondary-container hover:bg-secondary-fixed text-on-secondary-container font-title-sm text-title-sm font-bold rounded shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer" onclick="submitToWhatsApp()" type="button">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24">
+<path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path>
+</svg>
+                    Send RFQ via WhatsApp Desk
+                  </button>
+<button class="w-full sm:flex-1 py-3 bg-primary hover:bg-primary-container text-on-primary font-title-sm text-title-sm font-bold rounded shadow-md transition-all flex items-center justify-center gap-2 cursor-pointer" onclick="submitToEmail()" type="button">
+<svg class="w-5 h-5 fill-current" viewbox="0 0 24 24">
+<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+</svg>
+                    Send RFQ via Official Email
+                  </button>
+</div>
+</form>
+</div>
+<!-- Direct Contact Details Sidebar -->
+<div class="lg:col-span-4 flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-md flex flex-col gap-space-md border border-surface-container-high">
+<h3 class="font-headline-sm text-headline-sm text-primary">Direct Contact Desk</h3>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-[#25D366]/15 flex items-center justify-center shrink-0">
+<svg class="w-5 h-5 fill-[#25D366]" viewbox="0 0 24 24">
+<path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path>
+</svg>
+</div>
+<div>
+<span class="block font-spec-code text-spec-code text-on-surface-variant uppercase font-semibold">WhatsApp &amp; Direct Phone</span>
+<a class="font-title-lg text-title-lg text-primary font-bold hover:text-secondary transition-colors" href="https://wa.me/919623316837" rel="noopener" target="_blank">+91 9623316837</a>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Direct with Pravin Gaikwad</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-[#EA4335]/15 flex items-center justify-center shrink-0">
+<svg class="w-5 h-5 fill-[#EA4335]" viewbox="0 0 24 24">
+<path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"></path>
+</svg>
+</div>
+<div>
+<span class="block font-spec-code text-spec-code text-on-surface-variant uppercase font-semibold">Official Tender &amp; RFQ Email</span>
+<a class="font-title-sm text-title-sm text-primary font-bold hover:text-secondary transition-colors break-all" href="mailto:pravingg234@gmail.com">pravingg234@gmail.com</a>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Send formal RFQ documents &amp; PDFs</span>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-primary text-[22px]">location_on</span>
+</div>
+<div>
+<span class="block font-spec-code text-spec-code text-on-surface-variant uppercase font-semibold">Corporate Base</span>
+<span class="font-title-sm text-title-sm text-on-surface font-semibold">Maharashtra, India</span>
+<span class="block font-body-sm text-body-sm text-on-surface-variant">Pan-India Freight Logistics</span>
+</div>
+</div>
+</div>
+<!-- B2B Enterprise Order Protocol -->
+<div class="bg-surface-container-high p-space-md rounded-xl flex flex-col gap-space-xs text-spec-code font-spec-code text-on-surface-variant">
+<div class="flex items-center gap-1 font-bold text-on-surface">
+<span class="material-symbols-outlined text-secondary text-[16px]">info</span>
+                  B2B ENTERPRISE ORDER PROTOCOL
+                </div>
+<p class="font-body-sm text-body-sm leading-normal">
+                  Vedant Enterprises operates strictly on verified B2B commercial terms. No retail carts or consumer checkout. All transactions include official GST invoices, delivery challans, and manufacturer test certificates.
+                </p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- FOOTER -->
+<footer class="w-full bg-surface-container-low border-t border-surface-container-high">
+<div class="max-w-[1360px] mx-auto px-gutter py-space-2xl">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-xl">
+<div class="flex flex-col gap-space-sm">
+<div class="flex items-center gap-space-xs">
+<img alt="Shree Ganesh Emblem" class="h-8 w-8 rounded-full object-cover border border-secondary-container shadow-sm" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCzXvlG47QaM8un3YvtuhVDqpoUwd1FAuK_GwDXUK8sz_m9xgW-LTDZZ58bY3t4g4Ql0LuJG9hAQOYhkGyTSj9Oi5VEJEPyZ3JHDrHqgnLfrHuVreomiO21OwywTk6x197ZeqzeormZGI_29upnJf_3G8u_HxCpktFMN9rshkbiTYxhXbJIqCk2uqn5RiL9e3BgYC48LYIUZilKVi73uyC-gOJrV_ZvxGrQodRPIzje8QtYut1emgfEXrw96ZmijfSoug"/>
+<span class="font-headline-sm text-headline-sm text-primary">VEDANT ENTERPRISES</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+            Certified B2B procurement partner for premium Personal Protective Equipment, precision industrial abrasives, performance lubricants, and industrial packaging. Led by Pravin Gaikwad.
+          </p>
+<div class="font-spec-code text-spec-code text-secondary font-semibold mt-space-xs">
+            GST Certified &amp; Industrial Compliant
+          </div>
+</div>
+<div class="flex flex-col gap-space-sm">
+<h4 class="font-title-sm text-title-sm text-on-surface uppercase tracking-wider font-bold">Procurement Divisions</h4>
+<ul class="flex flex-col gap-space-xs font-body-sm text-body-sm">
+<li class="text-on-surface-variant">01. Industrial PPE &amp; Worker Safety</li>
+<li class="text-on-surface-variant">02. Abrasives &amp; Precision Grinding</li>
+<li class="text-on-surface-variant">03. Industrial Lubricants, Oils &amp; Greases</li>
+<li class="text-on-surface-variant">04. Industrial Packaging &amp; Palletizing</li>
+<li class="text-on-surface-variant">Direct Mill Rate Wholesale Quotas</li>
+</ul>
+</div>
+<div class="flex flex-col gap-space-sm">
+<h4 class="font-title-sm text-title-sm text-on-surface uppercase tracking-wider font-bold">Quotation &amp; Support</h4>
+<div class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant">
+<div class=""><span class="font-semibold text-on-surface">Direct Contact:</span> +91 9623316837</div>
+<div class=""><span class="font-semibold text-on-surface">Email Desk:</span> pravingg234@gmail.com</div>
+<div class=""><span class="font-semibold text-on-surface">Inquiry Hours:</span> Mon – Sat, 8:30 AM – 7:30 PM</div>
+<div class=""><span class="font-semibold text-on-surface">Distribution:</span> Pan-India Industrial Clusters</div>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm">
+<h4 class="font-title-sm text-title-sm text-on-surface uppercase tracking-wider font-bold">Direct Procurement</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Submit technical specification sheets, bill of quantities, or scheduled supply tenders.</p>
+<div class="flex flex-col gap-space-sm mt-space-xs">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-md py-space-xs bg-secondary-container text-on-secondary-container font-title-sm text-title-sm rounded hover:bg-secondary-fixed transition-colors font-semibold" href="https://wa.me/919623316837" rel="noopener" target="_blank">
+<span class="material-symbols-outlined text-[16px]">chat</span>WhatsApp Inquiry
+            </a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-md py-space-xs bg-surface-container text-on-surface font-title-sm text-title-sm rounded hover:bg-surface-container-high transition-colors" href="mailto:pravingg234@gmail.com">
+<span class="material-symbols-outlined text-[16px]">mail</span>Email Specification
+            </a>
+</div>
+</div>
+</div>
+<div class="mt-space-2xl pt-space-md border-t border-surface-container-highest flex flex-col sm:flex-row items-center justify-between text-spec-code font-spec-code text-on-surface-variant gap-space-sm">
+<div class="">© 2025 Vedant Enterprises. All rights reserved. Industrial B2B Wholesale Showcase.</div>
+<div class="flex gap-space-md text-on-surface-variant">
+<span class="">Proprietorship: Pravin Gaikwad</span>
+<span class="">Authorized Distributor</span>
+</div>
+</div>
+</div>
+</footer>
+<script>
+    // Accordion toggle functionality for all 4 product divisions
+    document.addEventListener('DOMContentLoaded', function () {
+      const toggleButtons = document.querySelectorAll('.division-toggle-btn');
+      
+      toggleButtons.forEach(button => {
+        button.addEventListener('click', function () {
+          const targetId = this.getAttribute('data-target');
+          const content = document.getElementById(targetId);
+          if (!content) return;
+          
+          const isCollapsed = content.classList.toggle('is-collapsed');
+          this.classList.toggle('is-collapsed-trigger', isCollapsed);
+          this.setAttribute('aria-expanded', !isCollapsed);
+          
+          const textSpan = this.querySelector('.toggle-text');
+          if (textSpan) {
+            const rawText = textSpan.textContent;
+            if (isCollapsed) {
+              textSpan.textContent = rawText.replace('Hide', 'View').replace('Collapse', 'View').replace('Explore', 'Show');
+            } else {
+              textSpan.textContent = rawText.replace('View', 'Hide').replace('Show', 'Hide');
+            }
+          }
+        });
+      });
+    });
+
+    function getFormData() {
+      const name = (document.getElementById('rfq-name') || {}).value || '';
+      const company = (document.getElementById('rfq-company') || {}).value || '';
+      const phone = (document.getElementById('rfq-phone') || {}).value || '';
+      const email = (document.getElementById('rfq-email') || {}).value || '';
+      const category = (document.getElementById('rfq-category') || {}).value || '';
+      const qty = (document.getElementById('rfq-qty') || {}).value || '';
+      const details = (document.getElementById('rfq-details') || {}).value || '';
+      return { 
+        name: name.trim(), 
+        company: company.trim(), 
+        phone: phone.trim(), 
+        email: email.trim(), 
+        category: category, 
+        qty: qty.trim(), 
+        details: details.trim() 
+      };
+    }
+
+    function submitToWhatsApp() {
+      const d = getFormData();
+      if (!d.name || !d.company) {
+        alert('Please fill your Name and Company Name before submitting.');
+        return;
+      }
+      const message = `*RFQ Inquiry - Vedant Enterprises*%0A` +
+        `*Name:* ${encodeURIComponent(d.name)}%0A` +
+        `*Company:* ${encodeURIComponent(d.company)}%0A` +
+        `*Phone:* ${encodeURIComponent(d.phone)}%0A` +
+        `*Email:* ${encodeURIComponent(d.email)}%0A` +
+        `*Division:* ${encodeURIComponent(d.category)}%0A` +
+        `*Quantity:* ${encodeURIComponent(d.qty || 'Bulk / Standard')}%0A` +
+        `*Requirements:* ${encodeURIComponent(d.details || 'Please share specifications and current rate card.')}`;
+      
+      const whatsappUrl = `https://wa.me/919623316837?text=${message}`;
+      window.open(whatsappUrl, '_blank');
+    }
+
+    function submitToEmail() {
+      const d = getFormData();
+      if (!d.name || !d.company) {
+        alert('Please fill your Name and Company Name before submitting.');
+        return;
+      }
+      const subject = encodeURIComponent(`Bulk RFQ Inquiry: ${d.company} - ${d.category}`);
+      const body = encodeURIComponent(
+        `Dear Pravin Gaikwad,\n\n` +
+        `We would like to request an official quotation for the following:\n\n` +
+        `Contact Person: ${d.name}\n` +
+        `Company: ${d.company}\n` +
+        `Phone / WhatsApp: ${d.phone}\n` +
+        `Email: ${d.email}\n` +
+        `Product Division: ${d.category}\n` +
+        `Estimated Quantity: ${d.qty}\n\n` +
+        `Technical Specifications / Requirements:\n${d.details}\n\n` +
+        `Please send us the commercial quote and lead time at your earliest convenience.\n\n` +
+        `Regards,\n${d.name}`
+      );
+      
+      window.location.href = `mailto:pravingg234@gmail.com?subject=${subject}&body=${body}`;
+    }
+  </script>
+</body></html>
